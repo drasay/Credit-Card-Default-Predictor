@@ -1,7 +1,7 @@
 # Credit Card Default Predictor
 This project implements a predictive pipeline to identify credit card defaults using the CC Default dataset. It benchmarks classical ML (XGBoost, Random Forest) against deep learning architectures (LSTM, Transformer) built in PyTorch. The repository features robust EDA, automated sequence preprocessing, and stratified K-fold cross-validation.
 
----
+
 ## Project Structure
 
 This repository uses a flat structure for transparency and ease of execution. All core logic and execution scripts are located in the root directory:
