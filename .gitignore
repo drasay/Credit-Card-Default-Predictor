@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Datasets
+*.xls
+*.xlsx
+*.csv
+*.tsv
+*.jsonl
+
+# Model Artifacts
+# These are your trained PyTorch weights and pickled models
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Visualizations and Logs
+# Ignore the generated plots/logs so they don't clutter every commit
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.log
+mlruns/
+lightning_logs/
